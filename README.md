@@ -8,7 +8,7 @@ In this task, we will write a program that receives a table of usernames from th
 
 2.  Ask for a username for a user.
 
-3.  Generate a random 8-digit code which will be their password.
+3.  Generate a random 8-digit code which will be their password. (You will need to use the randint function from the random library, but make sure that your final 8-digit code is in the form of a string or else the program will not work.)
 
 4.  Add the username and password as a key-value pair to `loginInfo`.
 
