@@ -21,16 +21,14 @@ In this task, we will write a program that receives a table of usernames from th
 1.  Repeat the following until three tries have been exhausted:
 
     a. Ask the user for the username they wish to log in with.
-
-    ​	i. If the username is valid, proceed to step b.
-
-    ​	ii. If the username is invalid, the user should receive a message saying so, and continue the loop.
-
-    b. Ask the user for the password for the user they are attempting to log in with.
-
-    ​	i. If the password is valid, tell the user that they successfully logged in and break out of the loop.
-
-    ​	ii. If the password is invalid, tell the user so, and continue the loop.
+    
+    b. Ask the user for the password they wish to log in with.
+    
+    c. If the username is invalid, the user should receive a message saying so, and continue the loop.
+    
+    d. If the password is invalid, tell the user so, and continue the loop.
+    
+    e. If both steps c and d have not continued the loop, tell the user that they successfully logged in and break out of the loop.
 
 2.  After three tries, if the user couldn't successfully get into the authentication system, tell the user so and end the program.
 
@@ -54,24 +52,48 @@ Add user: STOP
 
 List of users and passwords:
 ----------------
-john123: 12837243
-admin407: 40029318
-northsouth2020: 66757832
+john123: 99417261
+admin407: 16729101
+northsouth2020: 51296501
 ----------------
-	
+
 ================
 Sign in page
 ================
 
 Enter username: billy
+================
+Welcome to the authentication system!
+================
+
+Please enter users below to add to the database.
+
+Add user: john123
+Add user: admin407
+Add user: northsouth2020
+Add user: STOP
+
+List of users and passwords:
+----------------
+john123: 75873612
+admin407: 20963150
+northsouth2020: 60079845
+----------------
+
+================
+Sign in page
+================
+
+Enter username: billy
+Enter password: 19283712
 Invalid username.
 
 Enter username: admin407
-
 Enter password: 88219824
 Incorrect password.
 
-Enter password: 40029318
+Enter username: admin407
+Enter password: 20963150
 Successfully logged in.
 ```
 
@@ -91,24 +113,25 @@ Add user: STOP
 
 List of users and passwords:
 ----------------
-john123: 12837243
-admin407: 40029318
-northsouth2020: 66757832
+john123: 72877386
+admin407: 17210930
+northsouth2020: 41269279
 ----------------
-	
+
 ================
 Sign in page
 ================
 
-Enter username: billy
+Enter username: john321
+Enter password: 81934713
 Invalid username.
 
-Enter username: admin407
-
-Enter password: 88219824
+Enter username: northsouth2020
+Enter password: 91827871
 Incorrect password.
 
-Enter password: 12837243
+Enter username: northsouth2020
+Enter password: 88827117
 Incorrect password.
 
 You have unsuccessfully made 3 attempts to log in. Access denied.
