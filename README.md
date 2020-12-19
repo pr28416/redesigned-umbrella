@@ -14,7 +14,7 @@ In this task, we will write a program that receives a table of usernames from th
 
 5.  Repeat steps 2-4 until the user enters `"STOP"` as their input for the username.
 
-6.  Iterate through the dictionary and print the usernames and their associated passwords.
+6.  Iterate through `loginInfo` and print the usernames and their associated passwords.
 
 ## Step 2: Ask the user to log in
 
