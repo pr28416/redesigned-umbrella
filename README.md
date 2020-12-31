@@ -47,14 +47,14 @@ Please enter users below to add to the database.
 
 Add user: john123
 Add user: admin407
-Add user: northsouth2020
+Add user: covid2020
 Add user: STOP
 
 List of users and passwords:
 ----------------
 john123: 99417261
 admin407: 16729101
-northsouth2020: 51296501
+covid2020: 51296501
 ----------------
 
 ================
@@ -70,14 +70,14 @@ Please enter users below to add to the database.
 
 Add user: john123
 Add user: admin407
-Add user: northsouth2020
+Add user: covid2020
 Add user: STOP
 
 List of users and passwords:
 ----------------
 john123: 75873612
 admin407: 20963150
-northsouth2020: 60079845
+covid2020: 60079845
 ----------------
 
 ================
@@ -108,14 +108,14 @@ Please enter users below to add to the database.
 
 Add user: john123
 Add user: admin407
-Add user: northsouth2020
+Add user: covid2020
 Add user: STOP
 
 List of users and passwords:
 ----------------
 john123: 72877386
 admin407: 17210930
-northsouth2020: 41269279
+covid2020: 41269279
 ----------------
 
 ================
@@ -126,11 +126,11 @@ Enter username: john321
 Enter password: 81934713
 Invalid username.
 
-Enter username: northsouth2020
+Enter username: covid2020
 Enter password: 91827871
 Incorrect password.
 
-Enter username: northsouth2020
+Enter username: covid2020
 Enter password: 88827117
 Incorrect password.
 
